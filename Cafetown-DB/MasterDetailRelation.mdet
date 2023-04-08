@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), Master-detail document file -->
+<!-- Modifying this generated file will probably render it invalid -->
+<Document>
+  <Properties>
+    <Type>Master-detail Document</Type>
+    <DatabaseProvider>59f90733-4d68-4fdf-82a7-f0fcbf5460aa</DatabaseProvider>
+    <ProviderVersion>9.0.338.0</ProviderVersion>
+    <SchemaVersion>1.0</SchemaVersion>
+  </Properties>
+  <Connection>
+    <ConnectionModel>
+      <PropertyValue Name="Database">59f90733-4d68-4fdf-82a7-f0fcbf5460aa</PropertyValue>
+      <PropertyValue Name="ConnectionString" xml:space="preserve">User Id=root;Host=localhost;Character Set=utf8</PropertyValue>
+      <PropertyValue Name="ExecutionTimeout">0</PropertyValue>
+    </ConnectionModel>
+  </Connection>
+  <Views ShowAdditionalViews="True" IsLayoutActiveAttribute="False" MainViewAttribute="Design" MainViewScale="50">
+    <View Name="Design" Active="True" Visible="True">
+      <Data>
+        <Properties LocationX="0" LocationY="102.4" Scale="1" />
+        <Tables>
+          <Table Name="cafetown_development.inventory" Type="Table" Left="330" Top="210" Width="165.083755493164" Height="252" Collapsed="False" IsMaster="False" FetchLimit="1000">
+            <Fields>
+              <Field Name="InventoryID" InSelect="True" SortType="0" />
+              <Field Name="InventoryCode" InSelect="True" SortType="0" />
+              <Field Name="InventoryName" InSelect="True" SortType="0" />
+              <Field Name="Quantity" InSelect="True" SortType="0" />
+              <Field Name="Cost" InSelect="True" SortType="0" />
+              <Field Name="InventoryCategoryID" InSelect="True" SortType="0" />
+              <Field Name="Description" InSelect="True" SortType="0" />
+              <Field Name="CreatedBy" InSelect="True" SortType="0" />
+              <Field Name="CreatedDate" InSelect="True" SortType="0" />
+              <Field Name="ModifiedBy" InSelect="True" SortType="0" />
+              <Field Name="ModifiedDate" InSelect="True" SortType="0" />
+            </Fields>
+          </Table>
+          <Table Name="cafetown_development.inventorycategory" Type="Table" Left="70" Top="90" Width="165.083755493164" Height="198" Collapsed="False" IsMaster="True" FetchLimit="1000">
+            <Fields>
+              <Field Name="InventoryCategoryID" InSelect="True" SortType="0" />
+              <Field Name="InventoryCategoryCode" InSelect="True" SortType="0" />
+              <Field Name="InventoryCategoryName" InSelect="True" SortType="0" />
+              <Field Name="Description" InSelect="True" SortType="0" />
+              <Field Name="CreatedBy" InSelect="True" SortType="0" />
+              <Field Name="ModifiedBy" InSelect="True" SortType="0" />
+              <Field Name="CreatedDate" InSelect="True" SortType="0" />
+              <Field Name="ModifiedDate" InSelect="True" SortType="0" />
+            </Fields>
+          </Table>
+          <Table Name="cafetown_development.invoicedetail" Type="Table" Left="620" Top="280" Width="165.083755493164" Height="216" Collapsed="False" IsMaster="False" FetchLimit="1000">
+            <Fields>
+              <Field Name="InvoiceID" InSelect="True" SortType="0" />
+              <Field Name="InvoiceCode" InSelect="True" SortType="0" />
+              <Field Name="InventoryID" InSelect="True" SortType="0" />
+              <Field Name="InventoryCode" InSelect="True" SortType="0" />
+              <Field Name="InventoryName" InSelect="True" SortType="0" />
+              <Field Name="Quantity" InSelect="True" SortType="0" />
+              <Field Name="Cost" InSelect="True" SortType="0" />
+              <Field Name="TotalCost" InSelect="True" SortType="0" />
+              <Field Name="CreatedBy" InSelect="True" SortType="0" />
+              <Field Name="CreatedDate" InSelect="True" SortType="0" />
+              <Field Name="ModifiedBy" InSelect="True" SortType="0" />
+              <Field Name="ModifiedDate" InSelect="True" SortType="0" />
+            </Fields>
+          </Table>
+          <Table Name="cafetown_development.invoice" Type="Table" Left="870" Top="240" Width="165.083755493164" Height="198" Collapsed="False" IsMaster="False" FetchLimit="1000">
+            <Fields>
+              <Field Name="InvoiceID" InSelect="True" SortType="0" />
+              <Field Name="InvoiceCode" InSelect="True" SortType="0" />
+              <Field Name="TotalCost" InSelect="True" SortType="0" />
+              <Field Name="PurchaseDate" InSelect="True" SortType="0" />
+              <Field Name="CreatedBy" InSelect="True" SortType="0" />
+              <Field Name="CreatedDate" InSelect="True" SortType="0" />
+              <Field Name="ModifiedBy" InSelect="True" SortType="0" />
+              <Field Name="ModifiedDate" InSelect="True" SortType="0" />
+            </Fields>
+          </Table>
+          <Table Name="cafetown_development.employee" Type="Table" Left="80" Top="360" Width="165.083755493164" Height="216" Collapsed="False" IsMaster="False" FetchLimit="1000">
+            <Fields>
+              <Field Name="EmployeeID" InSelect="True" SortType="0" />
+              <Field Name="EmployeeCode" InSelect="True" SortType="0" />
+              <Field Name="EmployeeName" InSelect="True" SortType="0" />
+              <Field Name="DateOfBirth" InSelect="True" SortType="0" />
+              <Field Name="Gender" InSelect="True" SortType="0" />
+              <Field Name="IdentityNumber" InSelect="True" SortType="0" />
+              <Field Name="IdentityDate" InSelect="True" SortType="0" />
+              <Field Name="IdentityPlace" InSelect="True" SortType="0" />
+              <Field Name="Address" InSelect="True" SortType="0" />
+              <Field Name="Phone" InSelect="True" SortType="0" />
+              <Field Name="Email" InSelect="True" SortType="0" />
+              <Field Name="BankNumber" InSelect="True" SortType="0" />
+              <Field Name="BankName" InSelect="True" SortType="0" />
+              <Field Name="BankBranch" InSelect="True" SortType="0" />
+              <Field Name="CreatedBy" InSelect="True" SortType="0" />
+              <Field Name="CreatedDate" InSelect="True" SortType="0" />
+              <Field Name="ModifiedBy" InSelect="True" SortType="0" />
+              <Field Name="ModifiedDate" InSelect="True" SortType="0" />
+              <Field Name="Password" InSelect="True" SortType="0" />
+              <Field Name="IsEmployee" InSelect="True" SortType="0" />
+              <Field Name="IsManager" InSelect="True" SortType="0" />
+              <Field Name="JobPosition" InSelect="True" SortType="0" />
+            </Fields>
+          </Table>
+        </Tables>
+        <Links>
+          <Link OutTable="cafetown_development.inventorycategory" OutField="InventoryCategoryID" InTable="cafetown_development.inventory" InField="InventoryCategoryID" />
+          <Link OutTable="cafetown_development.inventory" OutField="InventoryID" InTable="cafetown_development.invoicedetail" InField="InventoryID" />
+          <Link OutTable="cafetown_development.invoice" OutField="InvoiceID" InTable="cafetown_development.invoicedetail" InField="InvoiceID" />
+        </Links>
+      </Data>
+    </View>
+    <View Name="Data" Visible="True" />
+  </Views>
+  <Settings>
+    <Options xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PageOptions">
+      <TopLeftMargins>
+        <Width>39.3700787401575 in/100</Width>
+        <Height>39.3700787401575 in/100</Height>
+      </TopLeftMargins>
+      <BottomRightMargins>
+        <Width>39.3700787401575 in/100</Width>
+        <Height>39.3700787401575 in/100</Height>
+      </BottomRightMargins>
+      <PaperSize>
+        <Width>827 in/100</Width>
+        <Height>1169 in/100</Height>
+      </PaperSize>
+    </Options>
+    <Options xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PrintOptions" />
+  </Settings>
+</Document>
